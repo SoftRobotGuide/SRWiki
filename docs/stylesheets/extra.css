@@ -1,52 +1,13 @@
-@font-face {
-    font-family: "smile";
-    src: url("./SmileySans-Oblique.otf") format("opentype");
-    }
-
-@font-face {
-font-family: "hei";
-src: url("./SourceHanSansSC-VF.otf") format("opentype");
-    }
-    
-@font-face {
-    font-family: "consolas";
-    src: url("./consola.ttf") format("truetype");
-    }
-
 /* 网站标题字体样式 */
 .md-header__topic .md-ellipsis {
-    font-family: "smile", sans-serif !important;
     font-size: 35px;
-    letter-spacing: 2px;
-    font-weight: 300; /* or 400 */
-    transform: scaleX(1.2);
-    margin-left: 20px; /* 根据需要调整数值 */
+    font-weight: 400; /* or 400 */
   }
   
-  
+.md-tabs__link {
+  font-size: 16px; /* 调整为你想要的字体大小 */
+} 
 
-/* 标题字体 */
-h1, h2, h3, h4, h5, h6 {
-    font-family: "hei", sans-serif !important;
-  }
-  
-  /* 正文字体 */
-  body {
-    font-family: "hei", sans-serif !important;
-  }
-  
-  /* 代码字体 */
-  code, pre {
-    font-family: "consolas", sans-serif !important;
-  }
-
-  .md-tabs__link {
-    font-size: 16px; /* 调整为你想要的字体大小 */
-  } 
-
-  :root {
-    --md-primary-fg-color:        #FA6831;
-    /* --md-primary-fg-color--light: #ECB7B7;
-    --md-primary-fg-color--dark:  #90030C; */
-  }
-  
+:root {
+  --md-primary-fg-color:        #FA6831;
+}
