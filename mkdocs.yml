@@ -9,6 +9,7 @@ repo_url: https://github.com/SoftRobotGuide/SRWiki
 
 theme:
   name: material
+  custom_dir: overrides
   features:
     - announce.dismiss
     - content.action.edit
