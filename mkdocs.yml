@@ -1,4 +1,4 @@
-site_name: SoBot Wiki 软体机器人导航
+site_name: " SoBot Wiki 软体机器人导航"
 site_url: https://sbot.wiki
 site_author: SRW
 site_description: >-
@@ -38,13 +38,16 @@ theme:
     - search.share
     - search.suggest
     - toc.follow
+    - announce.dismiss
     # - toc.integrate
+
+
 
 
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: light blue
+      primary: custom
       accent: deep purple
       toggle:
         icon: material/weather-sunny
@@ -59,7 +62,13 @@ theme:
 
   icon:
     repo: fontawesome/brands/github
-
+extra:
+  footer_background: "#F0F0F0"
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/SoftRobotGuide
+    - icon: fontawesome/solid/envelope
+      link: mailto:6061866@gmail.com
 nav:
     - Home: index.md
     - About: about.md
