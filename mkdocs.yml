@@ -6,10 +6,15 @@ site_description: >-
 
 repo_name: SRWiki
 repo_url: https://github.com/SoftRobotGuide/SRWiki
-
+edit_uri: edit/main/docs/
+extra_css:
+    - stylesheets/extra.css
 theme:
   name: material
+
   custom_dir: overrides
+
+
   features:
     - announce.dismiss
     - content.action.edit
@@ -51,10 +56,6 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to light mode
-
-  font:
-    text: Roboto
-    code: Roboto Mono
 
   icon:
     repo: fontawesome/brands/github

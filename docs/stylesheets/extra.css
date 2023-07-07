@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "smile";
+    src: url("./SmileySans-Oblique.otf") format("opentype");
+    }
+
+@font-face {
+font-family: "hei";
+src: url("./SourceHanSansSC-VF.otf") format("opentype");
+    }
+    
+@font-face {
+    font-family: "consolas";
+    src: url("./consola.ttf") format("truetype");
+    }
+
+/* 网站标题字体样式 */
+.md-header__topic .md-ellipsis {
+    font-family: "smile", sans-serif !important;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-weight: 300; /* or 400 */
+  }
+  
+  
+
+/* 标题字体 */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "hei", sans-serif !important;
+  }
+  
+  /* 正文字体 */
+  body {
+    font-family: "hei", sans-serif !important;
+  }
+  
+  /* 代码字体 */
+  code, pre {
+    font-family: "consolas", sans-serif !important;
+  }
+  
