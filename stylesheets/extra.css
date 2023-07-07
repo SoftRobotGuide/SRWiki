@@ -1,0 +1,15 @@
+/* 网站标题字体样式 */
+.md-header__topic .md-ellipsis {
+    font-size: 35px;
+    font-weight: 400; /* or 400 */
+    letter-spacing: 1px;
+    transform: scaleX(0.9);
+  }
+  
+.md-tabs__link {
+  font-size: 16px; /* 调整为你想要的字体大小 */
+} 
+
+:root {
+  --md-primary-fg-color:        #FA6831;
+}
