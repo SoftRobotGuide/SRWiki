@@ -23,7 +23,7 @@ theme:
     - content.code.copy
     # - content.tabs.link
     - content.tooltips
-    # - header.autohide
+    - header.autohide
     # - navigation.expand
     - navigation.footer
     - navigation.indexes
@@ -48,7 +48,7 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: custom
-      accent: deep purple
+      accent: red
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
@@ -70,6 +70,12 @@ extra:
     - icon: fontawesome/solid/envelope
       link: mailto:6061866@gmail.com
 nav:
-    - Home: index.md
-    - About: about.md
+    - 前言: index.md
+    - 软体机器人入门: index.md
+    - 代表性成果: index.md
+    - 建模与仿真: index.md
+    - 相关课题组: index.md
+    - 学术资源: index.md
+    - 留言与讨论: about.md
+    - 关于本站: about.md
     
