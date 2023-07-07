@@ -6,6 +6,7 @@ site_description: >-
 
 repo_name: SRWiki
 repo_url: https://github.com/SoftRobotGuide/SRWiki
+edit_uri: edit/main/docs/
 
 theme:
   name: material
