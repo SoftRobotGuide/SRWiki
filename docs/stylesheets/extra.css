@@ -2,6 +2,8 @@
 .md-header__topic .md-ellipsis {
     font-size: 35px;
     font-weight: 400; /* or 400 */
+    letter-spacing: 1px;
+    transform: scaleX(0.9);
   }
   
 .md-tabs__link {

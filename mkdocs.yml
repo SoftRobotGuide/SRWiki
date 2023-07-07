@@ -1,8 +1,8 @@
-site_name: " SoBot Wiki 软体机器人导航"
+site_name: " SRWiki-软体机器人导航"
 site_url: https://sbot.wiki
 site_author: SRW
 site_description: >-
-  软体机器人导航
+  SRWiki-软体机器人导航
 
 repo_name: SRWiki
 repo_url: https://github.com/SoftRobotGuide/SRWiki
@@ -75,11 +75,13 @@ nav:
     - 领域简介: "软体机器人入门/research_areas.md"
     - 常用资源和工具: "软体机器人入门/resources_tools.md"
     - 制造入门: "软体机器人入门/manufacturing_intro.md"
+    - 主流期刊和会议: "软体机器人入门/journal_conference.md"
   - 经典文献: 
     - 入门必读: "经典文献/introductory_papers.md"
     - 驱动器相关: "经典文献/actuation_papers.md"
     - 移动机器人: "经典文献/mobile_robotics_papers.md"
     - 抓取与操作: "经典文献/grasping_manipulation_papers.md"
+    - 传感器: "经典文献/sensor_papers.md"
     - 控制算法: "经典文献/control_algorithms_papers.md"
     - 折纸与剪纸: "经典文献/origami_kirigami_papers.md"
     - 集群机器人: "经典文献/swarm_robotics_papers.md"
@@ -96,6 +98,6 @@ nav:
     - 交流群: "信息与讨论/community_groups.md"
     - 提问专区: "信息与讨论/question_forum.md"
     - 自由讨论: "信息与讨论/general_discussion.md"
-  - 关于本站: "关于本站/about.md"
+  - 关于本站: about.md
 
     
