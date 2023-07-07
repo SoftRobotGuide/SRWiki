@@ -70,12 +70,32 @@ extra:
     - icon: fontawesome/solid/envelope
       link: mailto:6061866@gmail.com
 nav:
-    - 前言: index.md
-    - 软体机器人入门: index.md
-    - 代表性成果: index.md
-    - 建模与仿真: index.md
-    - 相关课题组: index.md
-    - 学术资源: index.md
-    - 留言与讨论: about.md
-    - 关于本站: about.md
+  - 前言: index.md
+  - 软体机器人入门: 
+    - 领域简介: "软体机器人入门/research_areas.md"
+    - 常用资源和工具: "软体机器人入门/resources_tools.md"
+    - 制造入门: "软体机器人入门/manufacturing_intro.md"
+  - 经典文献: 
+    - 入门必读: "经典文献/introductory_papers.md"
+    - 驱动器相关: "经典文献/actuation_papers.md"
+    - 移动机器人: "经典文献/mobile_robotics_papers.md"
+    - 抓取与操作: "经典文献/grasping_manipulation_papers.md"
+    - 控制算法: "经典文献/control_algorithms_papers.md"
+    - 折纸与剪纸: "经典文献/origami_kirigami_papers.md"
+    - 集群机器人: "经典文献/swarm_robotics_papers.md"
+    - 建模与仿真: "经典文献/modeling_simulation_papers.md"
+  - 课程资源: 
+    - 课程: "课程资源/courses.md"
+    - 书籍: "课程资源/books.md"
+    - 网站: "课程资源/websites.md"
+    - 开源项目: "课程资源/open_source_projects.md"
+  - 信息与讨论:
+    - 相关课题组: "信息与讨论/research_groups.md"
+    - 招生信息: "信息与讨论/admissions_information.md"
+    - 求学信息: "信息与讨论/study_abroad_information.md"
+    - 交流群: "信息与讨论/community_groups.md"
+    - 提问专区: "信息与讨论/question_forum.md"
+    - 自由讨论: "信息与讨论/general_discussion.md"
+  - 关于本站: "关于本站/about.md"
+
     
